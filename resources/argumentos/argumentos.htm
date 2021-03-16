@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraMW20-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>Parámetros</title>
+<link type="text/css" href="argumentos_resources/css/ardoraW2.css" rel="stylesheet" />
+</head>
+<body>
+<div id="ardoraMain">
+<div id="ardoraEnu"><SPAN style="font-size:20px;color:#000000"><b>6.2 Parámetros</b></SPAN><br><br><SPAN style="font-size:16px;color:#000000"><b><u>Consigna</u></b></SPAN><SPAN style="font-size:16px;color:#000000">: Observa y prueba cómo añadir un argumento a una función en Python</SPAN><br><SPAN style="font-size:16px;color:#000000"><b><u>Objetivo</u></b></SPAN><SPAN style="font-size:16px;color:#000000">: Introducir y Mostrar el uso de argumentos en una función en Python</SPAN><br><br><SPAN style="font-size:12px;color:#000000"># Los parámetros son valores que se le pueden pasar a una función para que pueda realizar más acciones, por ejemplo si pensamos en una calculadora le podemos definir la función suma que recibe dos números</SPAN><br><SPAN style="font-size:12px;color:#008000">##Código de ejemplo##</SPAN><br><SPAN style="font-size:12px;color:#00A000">def mostrar_suma(a,b): # se define a y b como parámetros de la suma</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;print(a+b)</SPAN><br><SPAN style="font-size:12px;color:#00A000">def devolver_suma(a,b):</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;return a + b</SPAN><br><SPAN style="font-size:12px;color:#00A000">mostrar_suma(10,15)</SPAN><br><SPAN style="font-size:12px;color:#00A000">resultado = devolver_suma(17,12)</SPAN><br><SPAN style="font-size:12px;color:#00A000">print(resultado)</SPAN><br><br><SPAN style="font-size:12px;color:#00A000"># mostrar si un elemento está en una lista</SPAN><br><SPAN style="font-size:12px;color:#00A000">def esta_en_la_lista(lista, elemento): # se define el parámetro lista y elemento</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;encontrado = False</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;for elem in lista:</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;&nbsp;if elem == elemento:</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;&nbsp;&nbsp;encontrado = True</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;&nbsp;&nbsp;break # si encuentra el elemento que termine el bucle</SPAN><br><SPAN style="font-size:12px;color:#00A000">&nbsp;return encontrado</SPAN><br><br><SPAN style="font-size:12px;color:#00A000">animales = ["perro", "gato", "tigre", "leon"]</SPAN><br><SPAN style="font-size:12px;color:#00A000">print(esta_en_la_lista(animales,"leon"))</SPAN><br><SPAN style="font-size:12px;color:#00A000">print(esta_en_la_lista(animales,"puma"))</SPAN></div>
+<div id="ardoraAct">
+<iframe src="https://www.programiz.com/python-programming/online-compiler/" width="800" height="500" scrolling="no">  <p>Your browser does not support iframes.</p></iframe>
+</div>
+</body></html>

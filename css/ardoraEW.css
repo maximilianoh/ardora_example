@@ -1,0 +1,61 @@
+/* created by Ardora http://www.webardora.net */
+
+               #menuLog { font-size:1.4em; margin:20px; }
+               #areaMenu{float:left;height:20px;}
+               #areaMenu a{clear:none;}
+               .hidden { position:absolute; top:0; left:-9999px; width:1px; height:1px; overflow:hidden; }
+               .fg-button { margin:0; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align:center;zoom:1;font-size:11px;}
+               .fg-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+               a.fg-button { float:left;  }
+               button.fg-button { width:auto; overflow:visible; } /* removes extra button width in IE */
+               .fg-button-icon-left { padding-left: 2.1em; }
+               .fg-button-icon-right { padding-right: 2.1em; }
+               .fg-button-icon-left .ui-icon { right: auto; left: .2em; margin-left: 0; }
+               .fg-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; }
+               .fg-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */
+               .fg-button.ui-state-loading .ui-icon { background: url(spinner_bar.gif) no-repeat 0 0; }
+body {font-size:62.5%; margin:0; padding:10px; background-color:#FFFFFF;background-image:url(../menuFiles/fondoTotal.gif); background-position:top; background-repeat:repeat-x}
+#showIframe{width:100%; height:100%; border:none;}
+#contedorTotal{ 
+   position:absolute;
+   width:1000px;
+   left:50%;
+   margin-left:-500px;
+   height:auto;
+   border-style:none;
+   border-width:thin;
+   border-color:#000000;
+   -webkit-border-radius: 6px; border-radius: 6px;
+-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);
+   background-color:#000000;
+}
+#cabeceira{ 
+   font-family:Verdana, Geneva, sans-serif;
+   background-image:url("../menuFiles/header.jpg");
+   background-position:right;
+   background-repeat:no-repeat;
+   background-color:#FFFFFF;
+   height:40px;
+   padding:5px;
+   -webkit-border-radius: 6px; border-radius: 6px;
+   border-style:solid;
+   border-width:thin;
+   border-color:#000000;
+}
+#ArdoraIframe{
+   background-color:#FFFFFF;
+   height:800px;
+   padding:5px;
+   -webkit-border-radius: 6px; border-radius: 6px;
+   border-style:solid;
+   border-width:thin;
+   border-color:#000000;
+      margin-top:25px;
+}
+#pe_pax{display:flex;justify-content:center;
+font-family:Verdana, Geneva, sans-serif;background-color:#FFFFFF;height:15px;padding:5px;
+   border-style:none;
+   border-width:thin;
+   border-color:#000000;
+   -webkit-border-radius: 6px; border-radius: 6px;
+}
